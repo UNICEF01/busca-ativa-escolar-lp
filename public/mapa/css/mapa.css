@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+#titleTooltip{
+	font-weight:bold;
+	position:absolute;
+	border-radius:3px;
+	color:white;
+	background:#1E1E1E;
+	border:1px solid #fff;
+	padding:5px 15px;
+	font-family:monospace;
+	z-index:10;
+	font-size:13px;
+	max-width:300px;
+	text-align:center;
+	display:none;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+#barra{
+	background-color: #00AEEF;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.item{
+	width: 500px;
+}
+#tabela{
+	margin-left: 200px;
+}
+#svg-map{
+
+	width:500px;
+	height:500px;
+	stroke:rgba(0,0,0,0.5);
+	padding:0;
+}
+
+#svg-map a path{
+	stroke: rgba(51, 122, 183, 0.3)
+}	
+#svg-map a path:not([fill]){ 
+	fill:rgba(0,128,0,0.01);
+}
+
+#svg-map text { 
+	font:12px Arial-BoldMT, sans-serif; 
+	fill:#222;
+}
+#svg-map a{ 
+	text-decoration:none;
+	cursor:pointer;
+}
+#svg-map a circle{ 
+	stroke:rgba(0,0,0,0.15);
+}
+#svg-map a circle:not([fill]){
+	fill:rgba(50,205,50,0.1); 
+}
+#svg-map a:hover circle{
+	transition-duration:0.4s;
+	fill:#fff !important;
+	stroke:green;
+}
+
+/*
+	estados fixos
+*/
+#svg-map a #shape-ms,
+#svg-map a #shape-ro,
+#svg-map a #shape-pb,
+#svg-map a #shape-sc,
+#svg-map a #shape-al,
+#svg-map a #shape-rr,
+#svg-map a #shape-am,
+#svg-map a #shape-rj,
+#svg-map a #shape-ac,
+#svg-map a #shape-ma,
+#svg-map a #shape-es,
+#svg-map a #shape-ce,
+#svg-map a #shape-to,
+#svg-map a #shape-se,
+#svg-map a #shape-pa,
+#svg-map a #shape-ba,
+#svg-map a #shape-rn,
+#svg-map a #shape-go{
+	fill:#c9eaf7 !important ;
+	stroke:#20697F;
+}
+
+#svg-map a:hover #shape-ms,
+#svg-map a:hover #shape-ro,
+#svg-map a:hover #shape-pb,
+#svg-map a:hover #shape-sc,
+#svg-map a:hover #shape-al,
+#svg-map a:hover #shape-rr,
+#svg-map a:hover #shape-am,
+#svg-map a:hover #shape-rj,
+#svg-map a:hover #shape-ac,
+#svg-map a:hover #shape-ma,
+#svg-map a:hover #shape-es,
+#svg-map a:hover #shape-ce,
+#svg-map a:hover #shape-to,
+#svg-map a:hover #shape-se,
+#svg-map a:hover #shape-pa,
+#svg-map a:hover #shape-ba,
+#svg-map a:hover #shape-rn,
+#svg-map a:hover #shape-go{
+	transition-duration:0.4s;
+	fill:#00AEEF !important ;
+	stroke:#20697F;
+}
+
+/*
+	final estados fixos
+*/
+#svg-map a:hover path{ 
+	transition-duration:0.4s;
+	fill:#00AEEF !important ;
+	stroke:#20697F;
+}
