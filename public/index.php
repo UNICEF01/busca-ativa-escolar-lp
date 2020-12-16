@@ -49,55 +49,50 @@
 
 <body id="home">
 
-<div id="top"></div>
+   <div id="top"></div>
 
-<header>
-    <div class="navbar">
-        <div class="wrapper">
+   <header>
+      <div class="navbar">
+         <div class="wrapper">
             <a href="/">
-                <img class="logo" src="../../images/logo-busca-ativa-escolar.png">
+            <img class="logo" src="../../images/logo-busca-ativa-escolar.png">
             </a>
-
             <a href="#" class="hamburger">
-                <span></span>
+            <span></span>
             </a>
             <?php
-                include('menu.php');
-            ?>
-        </div>
-    </div>
-
-    <div class="header--banner">
-        <div class="wrapper">
+               include('menu.php');
+               ?>
+         </div>
+      </div>
+      <div class="header--banner">
+         <div class="wrapper">
             <div class="img-desc">
-                Foto: © UNICEF/BRZ/Ratão Diniz.
+               Foto: © UNICEF/BRZ/Ratão Diniz.
             </div>
-        </div>
-    </div>
-</header>
+         </div>
+      </div>
+   </header>
 
-<section id="about" class="grey">
-    <div class="about--wrapper">
-        <h2 class="c-blue">
+   <section id="about" class="grey">
+      <div class="about--wrapper">
+         <h2 class="c-blue">
             Sobre a <br/>
             <span>Busca Ativa Escolar</span>
-        </h2>
-
-        <p>
+         </h2>
+         <p>
             A Busca Ativa Escolar é uma plataforma gratuita para ajudar os municípios a combater a exclusão escolar,
             desenvolvida pelo Fundo das Nações Unidas para a Infância (UNICEF) em parceria com a União Nacional dos
             Dirigentes Municipais de Educação (Undime), o Colegiado Nacional de Gestores Municipais de Assistência
             Social (Congemas).
-        </p>
-
-        <p>
+         </p>
+         <p>
             A intenção é apoiar os governos na identificação, registro, controle e acompanhamento de crianças e
             adolescentes que estão fora da escola ou em risco de evasão. Por meio da Busca Ativa Escolar, municípios e
             estados terão dados concretos que possibilitarão planejar, desenvolver e implementar políticas públicas que
             contribuam para a inclusão escolar.
-        </p>
-
-        <p>
+         </p>
+         <p>
             A Busca Ativa Escolar reúne representantes de diferentes áreas – Educação, Saúde, Assistência Social,
             Planejamento – dentro de uma mesma plataforma. Cada pessoa ou grupo tem um papel específico, que vai desde a
             identificação de uma criança ou adolescente fora da escola até a tomada das providências necessárias para a
@@ -105,208 +100,172 @@
             acessada em qualquer dispositivo como computadores de mesa, computadores portáteis, <i>tablets</i>,
             celulares (SMS) ou celulares <i>(smartphones)</i>. Há também formulários impressos para agentes comunitários
             e técnicos verificadores que não têm acesso a dispositivos móveis.
-        </p>
+         </p>
+         <div class="buttons"><a href="info.php" class="button blue"> Quero participar!</a> <a href="municipio.php"
+            class="button green">Veja
+            seu município</a>
+         </div>
+      </div>
+   </section>
 
-        <div class="buttons"><a href="info.php" class="button blue"> Quero participar!</a> <a href="municipio.php"
-                                                                                               class="button green">Veja
-                seu município</a></div>
-
-    </div>
-</section>
-
-<section id="participates">
-    <div class="participates--wrapper">
-        <h2 class="c-blue">
+   <section id="participates">
+      <div class="participates--wrapper">
+         <h2 class="c-blue">
             Quem participa <br/>
             <span>da Busca Ativa Escolar</span>
-        </h2>
-
-        <p class="participates--subtitle">
+         </h2>
+         <p class="participates--subtitle">
             Para implementar a Busca Ativa Escolar, o município deve fazer a adesão ao projeto e organizar uma equipe.
             Entenda o papel de cada participante:
-        </p>
-
-        <div class="participates--topics--row">
+         </p>
+         <div class="participates--topics--row">
             <div class="participates--topics--col">
-                <div class="dot"></div>
-
-                <h3>Prefeito(a) Municipal</h3>
-
-                <p>
-                    Faz a adesão à Busca Ativa Escolar e define o(a) Gestor(a) Político(a)*
-                    <sup>*A adesão pode ser feita tanto pelo prefeito(a) como pelo(a) Gestor(a) político(a)
-                        designado(a)</sup>
-                </p>
+               <div class="dot"></div>
+               <h3>Prefeito(a) Municipal</h3>
+               <p>
+                  Faz a adesão à Busca Ativa Escolar e define o(a) Gestor(a) Político(a)*
+                  <sup>*A adesão pode ser feita tanto pelo prefeito(a) como pelo(a) Gestor(a) político(a)
+                  designado(a)</sup>
+               </p>
             </div>
-
             <div class="participates--topics--col">
-                <div class="dot"></div>
-
-                <h3>Gestor(a) Político(a)</h3>
-
-                <p>
-                    Facilita a comunicação entre o(a) prefeito(a) e os demais participantes, para garantir ações
-                    intersetoriais
-                </p>
+               <div class="dot"></div>
+               <h3>Gestor(a) Político(a)</h3>
+               <p>
+                  Facilita a comunicação entre o(a) prefeito(a) e os demais participantes, para garantir ações
+                  intersetoriais
+               </p>
             </div>
-
             <div class="participates--topics--col">
-                <div class="dot"></div>
-
-                <h3>Coordenador(a) operacional</h3>
-
-                <p>
-                    Planeja e acompanha o andamento das ações da Busca Ativa Escolar
-                </p>
+               <div class="dot"></div>
+               <h3>Coordenador(a) operacional</h3>
+               <p>
+                  Planeja e acompanha o andamento das ações da Busca Ativa Escolar
+               </p>
             </div>
-
             <div class="participates--topics--col">
-                <div class="dot"></div>
-
-                <h3>Supervisores Institucionais</h3>
-
-                <p>
-                    Recebem os alertas sobre crianças e adolescentes fora da escola e fazem os encaminhamentos
-                    necessários para garantir a (re)matrícula e a permanência na escola
-                </p>
+               <div class="dot"></div>
+               <h3>Supervisores Institucionais</h3>
+               <p>
+                  Recebem os alertas sobre crianças e adolescentes fora da escola e fazem os encaminhamentos
+                  necessários para garantir a (re)matrícula e a permanência na escola
+               </p>
             </div>
-
             <div class="participates--topics--col">
-                <div class="dot"></div>
-
-                <h3>Técnicos Verificadores</h3>
-
-                <p>
-                    Visitam as famílias para entender os motivos da exclusão escolar e fazem uma análise técnica para
-                    garantir a (re)matrícula
-                </p>
+               <div class="dot"></div>
+               <h3>Técnicos Verificadores</h3>
+               <p>
+                  Visitam as famílias para entender os motivos da exclusão escolar e fazem uma análise técnica para
+                  garantir a (re)matrícula
+               </p>
             </div>
-
             <div class="participates--topics--col">
-                <div class="dot"></div>
-
-                <h3>Agentes Comunitários</h3>
-
-                <p>
-                    Fazem a busca ativa de crianças e adolescentes fora da escola e enviam os alertas
-                </p>
+               <div class="dot"></div>
+               <h3>Agentes Comunitários</h3>
+               <p>
+                  Fazem a busca ativa de crianças e adolescentes fora da escola e enviam os alertas
+               </p>
             </div>
-        </div>
+         </div>
+         <a href="info.php" class="button blue">
+         Quero participar!
+         </a>
+      </div>
+   </section>
 
-        <a href="info.php" class="button blue">
-            Quero participar!
-        </a>
-    </div>
-</section>
-
-<section id="pass" class="grey">
-    <div class="pass--wrapper">
-        <h2 class="c-blue">Passo a passo</h2>
-
-        <p class="pass--subtitle">Todo o processo de cadastro é feito em 3 etapas.</p>
-
-        <div class="pass--topics--row">
+   <section id="pass" class="grey">
+      <div class="pass--wrapper">
+         <h2 class="c-blue">Passo a passo</h2>
+         <p class="pass--subtitle">Todo o processo de cadastro é feito em 3 etapas.</p>
+         <div class="pass--topics--row">
             <div class="pass--topics--col">
-                <div class="icon">
-                    <img src="images/ico-adesao.png" alt="Adesão"/>
-                </div>
-
-                <h4>
-                    1ª etapa <br/>
-                    <span>Adesão</span>
-                </h4>
-
-                <p class="pass--p-marginfix">
-                    Cadastre o município e o Gestor Político, aceite o termo de adesão e aguarde a confirmação.*
-                    <sup>*A adesão pode ser feita tanto pelo prefeito(a) ou pelo(a) Gestor(a) político(a)
-                        designado(a)</sup>
-                </p>
+               <div class="icon">
+                  <img src="images/ico-adesao.png" alt="Adesão"/>
+               </div>
+               <h4>
+                  1ª etapa <br/>
+                  <span>Adesão</span>
+               </h4>
+               <p class="pass--p-marginfix">
+                  Cadastre o município e o Gestor Político, aceite o termo de adesão e aguarde a confirmação.*
+                  <sup>*A adesão pode ser feita tanto pelo prefeito(a) ou pelo(a) Gestor(a) político(a)
+                  designado(a)</sup>
+               </p>
             </div>
-
             <div class="pass--topics--col">
-                <div class="icon">
-                    <img src="images/ico-confirmacao.png" alt="Confirmação dos dados"/>
-                </div>
-
-                <h4>
-                    2ª etapa <br/>
-                    <span>
-								Confirmação <br/>
-								dos dados
-							</span>
-                </h4>
-
-                <p>
-                    Após a aprovação, confira os dados do Gestor Político e cadastre o Coordenador Operacional.
-                </p>
+               <div class="icon">
+                  <img src="images/ico-confirmacao.png" alt="Confirmação dos dados"/>
+               </div>
+               <h4>
+                  2ª etapa <br/>
+                  <span>
+                  Confirmação <br/>
+                  dos dados
+                  </span>
+               </h4>
+               <p>
+                  Após a aprovação, confira os dados do Gestor Político e cadastre o Coordenador Operacional.
+               </p>
             </div>
-
             <div class="pass--topics--col last--topic">
-                <div class="icon">
-                    <img src="images/ico-cadastro.png" alt="Cadastro da equipe"/>
-                </div>
-
-                <h4>
-                    3ª etapa <br/>
-                    <span>
-								Cadastro <br/>
-								da equipe
-							</span>
-                </h4>
-
-                <p>
-                    Confira os dados do Coordenador Operacional, cadastre os Grupos de trabalho e os Usuários,
-                    personalize o sistema e defina os prazos para cada etapa.
-                </p>
+               <div class="icon">
+                  <img src="images/ico-cadastro.png" alt="Cadastro da equipe"/>
+               </div>
+               <h4>
+                  3ª etapa <br/>
+                  <span>
+                  Cadastro <br/>
+                  da equipe
+                  </span>
+               </h4>
+               <p>
+                  Confira os dados do Coordenador Operacional, cadastre os Grupos de trabalho e os Usuários,
+                  personalize o sistema e defina os prazos para cada etapa.
+               </p>
             </div>
-        </div>
+         </div>
+         <a href="info.php" class="button blue">
+         Quero participar!
+         </a>
+      </div>
+   </section>
 
-        <a href="info.php" class="button blue">
-            Quero participar!
-        </a>
-    </div>
-</section>
-
-<section id="initiative">
-    <div class="initiative--wrapper">
-        <h2 class="c-blue">
+   <section id="initiative">
+      <div class="initiative--wrapper">
+         <h2 class="c-blue">
             Sobre a iniciativa <br/>
             <span>Fora da Escola Não Pode!</span>
-        </h2>
-
-        <div class="initiative--cols">
+         </h2>
+         <div class="initiative--cols">
             <div class="initiative--col-left">
-                <p>
-                    O Fora da Escola Não Pode! é uma iniciativa do Fundo das Nações Unidas para a Infância (UNICEF) para
-                    garantir que cada criança e adolescente esteja na escola e aprendendo. Desenvolvida por meio de
-                    diversas frentes de atuação, a iniciativa procura conscientizar diferentes atores responsáveis pela
-                    inclusão escolar, e também a sociedade em geral, sobre o problema da exclusão escolar e sugerir
-                    planos práticos para chegar a uma solução
-                </p>
-                <p>
-                    A Busca Ativa Escolar é uma das estratégias do Fora da Escola Não Pode! para ajudar os municípios a
-                    combater a exclusão escolar. Saiba mais sobre a iniciativa clicando abaixo.
-                </p>
+               <p>
+                  O Fora da Escola Não Pode! é uma iniciativa do Fundo das Nações Unidas para a Infância (UNICEF) para
+                  garantir que cada criança e adolescente esteja na escola e aprendendo. Desenvolvida por meio de
+                  diversas frentes de atuação, a iniciativa procura conscientizar diferentes atores responsáveis pela
+                  inclusão escolar, e também a sociedade em geral, sobre o problema da exclusão escolar e sugerir
+                  planos práticos para chegar a uma solução
+               </p>
+               <p>
+                  A Busca Ativa Escolar é uma das estratégias do Fora da Escola Não Pode! para ajudar os municípios a
+                  combater a exclusão escolar. Saiba mais sobre a iniciativa clicando abaixo.
+               </p>
             </div>
             <div class="initiative--col-right">
-                <img src="images/nao-pode.jpg">
+               <img src="images/nao-pode.jpg">
             </div>
-        </div>
+         </div>
+         <a href="http://www.foradaescolanaopode.org.br/" target="_blank" class="button blue">
+         Conheça a Iniciativa
+         </a>
+      </div>
+   </section>
 
-        <a href="http://www.foradaescolanaopode.org.br/" target="_blank" class="button blue">
-            Conheça a Iniciativa
-        </a>
-    </div>
-</section>
-
-<section id="course" class="grey">
-    <div class="course--wrapper">
-
-        <h2 class="c-blue">
+   <section id="course" class="grey">
+      <div class="course--wrapper">
+         <h2 class="c-blue">
             Curso
-        </h2>
-
-        <p>
+         </h2>
+         <p>
             O Busca Ativa Escolar na Prática é um curso autoformativo com o objetivo de apoiar municípios e estados na
             implementação da estratégia. Ele é dividido em módulos, de acordo com as funções que cada ator possui na
             Busca Ativa Escolar e aborda diversos temas importantes para qualificar o trabalho das equipes. Os módulos
@@ -314,189 +273,166 @@
             ajudando a aprimorar os conhecimentos sobre a estratégia. O curso possui certificação e está aberto na
             plataforma Google Sala de Aula, podendo ser realizado por qualquer pessoa que atue ou tenha interesse de
             atuar na estratégia.
-        </p>
+         </p>
+      </div>
+      <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank" class="button blue">
+      Quero participar
+      </a>
+   </section>
 
-    </div>
-
-    <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank" class="button blue">
-        Quero participar
-    </a>
-</section>
-
-<section id="contact" class="no-pad grey">
-    <div class="contact--wrapper">
-        <h2 class="c-white">
+   <section id="contact" class="no-pad grey">
+      <div class="contact--wrapper">
+         <h2 class="c-white">
             Entre em <br/>
             <span>Contato</span>
-        </h2>
-
-        <p class="contact--subtitle">
+         </h2>
+         <p class="contact--subtitle">
             Se você desejar falar conosco, preencha o formulário a seguir que entraremos em contato o mais breve
             possível.<br/>&nbsp;
-        </p>
-
-        <form action="enviar.php" method="post" onsubmit="formSubmitSend()">
+         </p>
+         <form action="enviar.php" method="post" onsubmit="formSubmitSend()">
             <input class="hidden-track" type="hidden" name="track">
             <div class="form-row">
-                <input type="text" name="name" placeholder="Seu nome" class="field-full" required>
+               <input type="text" name="name" placeholder="Seu nome" class="field-full" required>
             </div>
-
             <div class="form-row">
-                <input type="email" name="mail" placeholder="Seu e-mail" class="field-half" required>
-                <input type="text" name="tel" placeholder="Seu telefone" class="field-half mask-phone" required>
+               <input type="email" name="mail" placeholder="Seu e-mail" class="field-half" required>
+               <input type="text" name="tel" placeholder="Seu telefone" class="field-half mask-phone" required>
             </div>
-
             <div class="form-row">
-                <label class="select select-big">
-                    <input type="text" name="mun" class="field" placeholder="Município" required/>
-                </label>
-
-                <label class="select select-small">
-                    <input type="text" name="uf" class="field" placeholder="UF" required/>
-                </label>
+               <label class="select select-big">
+               <input type="text" name="mun" class="field" placeholder="Município" required/>
+               </label>
+               <label class="select select-small">
+               <input type="text" name="uf" class="field" placeholder="UF" required/>
+               </label>
             </div>
-
             <div class="form-row">
-                <textarea rows="4" cols="50" name="text" class="field-text">Escreva sua mensagem aqui!</textarea>
+               <textarea rows="4" cols="50" name="text" class="field-text">Escreva sua mensagem aqui!</textarea>
             </div>
-
             <div>
-                <div class="g-recaptcha" data-sitekey="6Ld-iMQUAAAAAPmllwgxZH7adrMMjImRYfvbVyOg"></div>
+               <div class="g-recaptcha" data-sitekey="6Ld-iMQUAAAAAPmllwgxZH7adrMMjImRYfvbVyOg"></div>
             </div>
-
             <button class="button yellow btn-submit" onclick="formSubmitClick()" id="bt_recaptcha">
-					<span>
-						Enviar <i></i>
-					</span>
+            <span>
+            Enviar <i></i>
+            </span>
             </button>
-        </form>
-    </div>
-
-    <div class="wrapper">
-        <div class="img-desc">
+         </form>
+      </div>
+      <div class="wrapper">
+         <div class="img-desc">
             Foto: © UNICEF/BRZ/João Laet.
-        </div>
-    </div>
-    <div class="contact--gestor">
-        <h2 class="contact-phone"><i class="ico-telefone"></i>0800 729 2872</h2>
-        <h2 class="contact-whatsapp"><i class="ico-whatsapp"></i>(61) 98257-2931</h2>
-        <span class="only-whatsapp">Somente WhatsApp</span><br/><br/>
-        <strong>Canal preferencial</strong> para membros do Comitê Gestor da Busca Ativa Escolar nos municípios e
-        estados.
-    </div>
-</section>
+         </div>
+      </div>
+      <div class="contact--gestor">
+         <h2 class="contact-phone"><i class="ico-telefone"></i>0800 729 2872</h2>
+         <h2 class="contact-whatsapp"><i class="ico-whatsapp"></i>(61) 98257-2931</h2>
+         <span class="only-whatsapp">Somente WhatsApp</span><br/><br/>
+         <strong>Canal preferencial</strong> para membros do Comitê Gestor da Busca Ativa Escolar nos municípios e
+         estados.
+      </div>
+   </section>
 
-<footer class="grey">
-    <div class="footer--wrapper">
+   <footer class="grey">
+      <div class="footer--wrapper">
+         <a href="https://undime.org.br/" target="_blank">
+         <img src="images/logo-undime.png" alt="Undime"/>
+         </a>
+         <a href="http://www.congemas.org.br/" target="_blank">
+         <img src="images/logo-congemas.png" alt="Congemas"/>
+         </a>
+         <a href="http://www.conasems.org.br/" target="_blank">
+         <img src="images/logo-conasems.png" alt="Conasems"/>
+         </a>
+         <a href="https://www.unicef.org/brazil/pt/" target="_blank">
+         <img src="images/logo-unicef.png" alt="Unicef"/>
+         </a>
+      </div>
+   </footer>
 
-        <a href="https://undime.org.br/" target="_blank">
-            <img src="images/logo-undime.png" alt="Undime"/>
-        </a>
-        <a href="http://www.congemas.org.br/" target="_blank">
-            <img src="images/logo-congemas.png" alt="Congemas"/>
-        </a>
-        <a href="http://www.conasems.org.br/" target="_blank">
-            <img src="images/logo-conasems.png" alt="Conasems"/>
-        </a>
-
-        <a href="https://www.unicef.org/brazil/pt/" target="_blank">
-            <img src="images/logo-unicef.png" alt="Unicef"/>
-        </a>
-    </div>
-</footer>
-<div class="pop-up">
-    <div class="modal-overlay">
-        <div class="modal active">
-
+   <div class="pop-up">
+      <div class="modal-overlay">
+         <div class="modal active">
             <a class="close-modal">
-                <svg viewBox="0 0 20 20">
-                    <path fill="#ffffff"
-                          d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
-                </svg>
-            </a><!-- close modal -->
+               <svg viewBox="0 0 20 20">
+                  <path fill="#ffffff"
+                     d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+               </svg>
+            </a>
+            <!-- close modal -->
             <div class="modal-content">
-<!--                <a href="https://buscaativaescolar.org.br/criseseemergencias/" target="_blank">-->
-<!--                    <img src="images/banner-lancemento-guia.jpg" style="width: 100%">-->
-<!--                </a>-->
-<!--            </div>-->
+               <div class="modal-content">
 
-                        <div class="modal-content">
+                  <h2 class="c-blue">
+                     <img src="../../images/logo-busca-ativa-escolar.png"><br><br>
+                     <div style="font-size: 28px">Destaques</div>
+                  </h2>
 
-                            <h2 class="c-blue">
-                                <img src="../../images/logo-busca-ativa-escolar.png"><br><br>
-                                <div style="font-size: 28px">Destaques</div>
-                            </h2>
+                  <br/>
 
-                            <p><b>A Busca Ativa Escolar disponibilizou uma série de materiais e orientações para que municípios e estados possam montar suas próprias <a>campanhas de comunicação</a> para enfrentar o abandono e a exclusão escolares. <a target="_blank" href="campanha">Clique aqui e saiba mais.</a></b></p>
-                            <br />
-                            <p><b>A estratégia também foi revisitada para se adaptar a situações de crises e emergências, como a de covid-19. Para isso foi elaborado o <a>Guia Busca Ativa Escolar em crises e emergências</a>. Ele conta com uma série de orientações e recomendações que ajudam estados e municípios a prevenir e/ou mitigar o abandono e a evasão escolares. <a target="_blank" href="criseseemergencias">Clique aqui e saiba mais.</a></b></p>
-                            <br/>
-                            <p><b>Outro material importante é o <a>Guia de para uso da funcionalidade de acompanhamento de frequência escolar</a>, que colabora para que os(as) gestores(as) possam acompanhar a situação das redes municipais e estaduais e tomar decisões rápidas a fim de prevenir o abandono escolar. <a target="_blank" href="https://biblioteca.buscaativaescolar.org.br/material/guia-para-uso-da-funcionalidade-de-acompanhamento-de-frequencia-escolar">Clique aqui e saiba mais.</a></b></p>
-                            <br/>
-                            <p>
-                                <b>Recomenda-se ainda outras ações que podem aprimorar ainda mais a implementação da Busca Ativa Escolar no seu município e estado:</b><br>
-                                 <a href="https://sites.google.com/crescendojuntos.org/busca-ativa/na-pratica" target="_blank">- Curso online autoinstrucional Busca Ativa Escolar Na Prática</a>.<br>
-                                <a href="https://biblioteca.buscaativaescolar.org.br" target="_blank">- Guias e manuais de orientação sobre a metodologia e a plataforma</a>.<br>
-                                <a href="https://www.youtube.com/watch?v=gmgzbB_yUDY&list=PLg5IhsOl5bLWIUQiyvLEJNtyzEPmJ45UP" target="_blank">- Plantões online sobre dúvidas frequentes, no canal do UNICEF Brasil no Youtube</a>.<br>
-                                <a href="https://www.youtube.com/watch?v=XyGh3aLBIcQ&list=PLg5IhsOl5bLXTAvzFf71cqJP-ZrLnQ6TX">- Busca Ativa Escolar em Pílulas, vídeos com orientações sobre a metodologia e a plataforma, no canal do UNICEF Brasil no Youtube</a>.<br>
+                  <p>A Busca Ativa Escolar fez um Reconhecimento Público dos municípios que participaram da edição 2017-2020 do Selo UNICEF e que alcançaram a meta de (re)matrícula estabelecida, garantindo, assim, o direito à educação de crianças e adolescentes. O documento foi enviado aos(às) coordenadores(as) operacionais dos municípios. Caso o seu não tenha recebido, entre em contato com os nossos canais de atendimento. <a href="/downloads/lista_municipios_reconhecimento_publico_2020.pdf" target="_blank">Acesse aqui a lista de municípios</a></p>
 
-                            </p>
-                            <p>
+                  <br/><br/>
 
-                                <br>
-                            Qualquer dúvida, entre em contato com os nossos canais de atendimento:<br/>
-                            0800 729 2872<br/>
-                            (61) 98257 2931 (somente WhatsApp)<br/>
-                            contato@buscaativaescolar.org.br
-                            </p>
-                            <br>
-                            <p>
-                                Atenciosamente,<br>
-                                Equipe Gestora Nacional da Busca Ativa Escolar
-                            </p>
+                  <p><b>Conheça as respostas da Busca Ativa Escolar para crises e emergências:</b><br/>
 
-        </div><!-- content -->
+                  Campanha de comunicação: <a href="https://buscaativaescolar.org.br/campanha" target="_blank"> Clique aqui e saiba mais</a><br/>
+
+                  Guia Busca Ativa Escolar em Crises e Emergências: <a href="https://buscaativaescolar.org.br/criseseemergencias" target="_blank"> Clique aqui e saiba mais</a><br/>
+
+                  Guia de uso da funcionalidade de acompanhamento da frequência escolar: <a href="https://biblioteca.buscaativaescolar.org.br/material/guia-para-uso-da-funcionalidade-de-acompanhamento-de-frequencia-escolar" target="_blank"> Clique aqui e saiba mais</a></p>
+
+                  <br/><br/>
+                  
+                  <p>
+                  Atenciosamente,<br/>
+                  Equipe Gestora Nacional da Busca Ativa Escolar</p>
 
 
-    </div><!-- modal -->
-</div><!-- overlay -->
-</div>
-<script>
-    function formSubmitSend() {
-        var val = JSON.parse(localStorage.getItem('track') || '[]');
-        val.push(getTime() + "Submit Send: " + $('form').serialize());
 
-        localStorage.setItem('track', JSON.stringify(val));
-        document.querySelector('.hidden-track').value = JSON.stringify(val);
-    }
+               </div>
+               <!-- content -->
+            </div>
+            <!-- modal -->
+         </div>
+         <!-- overlay -->
+      </div>
+   </div>
 
-    function formSubmitClick() {
-        var val = JSON.parse(localStorage.getItem('track') || '[]');
-        val.push(getTime() + "try submit form... form is " + (document.forms[0].checkValidity() ? 'valid' : 'invalid'));
+   <script>
+      function formSubmitSend() {
+          var val = JSON.parse(localStorage.getItem('track') || '[]');
+          val.push(getTime() + "Submit Send: " + $('form').serialize());
 
-        localStorage.setItem('track', JSON.stringify(val));
-    }
+          localStorage.setItem('track', JSON.stringify(val));
+          document.querySelector('.hidden-track').value = JSON.stringify(val);
+      }
 
-    function getTime() {
-        var currentdate = new Date();
-        return "["
-            + currentdate.getDate() + "/"
-            + (currentdate.getMonth() + 1) + "/"
-            + currentdate.getFullYear() + " @ "
-            + currentdate.getHours() + ":"
-            + currentdate.getMinutes() + ":"
-            + currentdate.getSeconds()
-            + "]";
-    }
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+      function formSubmitClick() {
+          var val = JSON.parse(localStorage.getItem('track') || '[]');
+          val.push(getTime() + "try submit form... form is " + (document.forms[0].checkValidity() ? 'valid' : 'invalid'));
 
-<script src="dist/js/libs.js"></script> <!-- Libraries -->
-<script src="dist/js/app.js"></script> <!-- Development -->
-<link rel="stylesheet" href="dist/css/sweetalert.css"/>
+          localStorage.setItem('track', JSON.stringify(val));
+      }
 
-<!--script src="dist/js/app.min.js"></script--> <!-- Production -->
-
+      function getTime() {
+          var currentdate = new Date();
+          return "["
+              + currentdate.getDate() + "/"
+              + (currentdate.getMonth() + 1) + "/"
+              + currentdate.getFullYear() + " @ "
+              + currentdate.getHours() + ":"
+              + currentdate.getMinutes() + ":"
+              + currentdate.getSeconds()
+              + "]";
+      }
+   </script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+   <script src="dist/js/libs.js"></script> <!-- Libraries -->
+   <script src="dist/js/app.js"></script> <!-- Development -->
+   <link rel="stylesheet" href="dist/css/sweetalert.css"/>
+   <!--script src="dist/js/app.min.js"></script--> <!-- Production -->
 </body>
 
 </html>
