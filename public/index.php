@@ -351,7 +351,54 @@
       </div>
    </footer>
 
-   <!-- POPUP -->
+   <div class="pop-up">
+         <div class="modal-overlay">
+            <div class="modal active">
+               <a class="close-modal">
+                  <svg viewBox="0 0 20 20">
+                     <path fill="#ffffff"
+                        d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                  </svg>
+               </a>
+               <!-- close modal -->
+               <div class="modal-content">
+                  <div class="modal-content">
+
+                     <h2 class="c-blue">
+                        <img src="../../images/logo-busca-ativa-escolar.png"><br><br>
+                        <div style="font-size: 28px">Destaques</div>
+                     </h2>
+
+                     <br/>
+
+                     <p>A Busca Ativa Escolar fez um Reconhecimento Público dos municípios que participaram da edição 2017-2020 do Selo UNICEF e que alcançaram a meta de (re)matrícula estabelecida, garantindo, assim, o direito à educação de crianças e adolescentes. O documento foi enviado aos(às) coordenadores(as) operacionais dos municípios. Caso o seu não tenha recebido, entre em contato com os nossos canais de atendimento. <a href="/downloads/lista_municipios_reconhecimento_publico_2020.pdf" target="_blank">Acesse aqui a lista de municípios</a></p>
+
+                     <br/><br/>
+
+                     <p><b>Conheça as respostas da Busca Ativa Escolar para crises e emergências:</b><br/>
+
+                     Campanha de comunicação: <a href="https://buscaativaescolar.org.br/campanha" target="_blank"> Clique aqui e saiba mais</a><br/>
+
+                     Guia Busca Ativa Escolar em Crises e Emergências: <a href="https://buscaativaescolar.org.br/criseseemergencias" target="_blank"> Clique aqui e saiba mais</a><br/>
+
+                     Guia de uso da funcionalidade de acompanhamento da frequência escolar: <a href="https://biblioteca.buscaativaescolar.org.br/material/guia-para-uso-da-funcionalidade-de-acompanhamento-de-frequencia-escolar" target="_blank"> Clique aqui e saiba mais</a></p>
+
+                     <br/><br/>
+
+                     <p>
+                     Atenciosamente,<br/>
+                     Equipe Gestora Nacional da Busca Ativa Escolar</p>
+
+
+
+                  </div>
+                  <!-- content -->
+               </div>
+               <!-- modal -->
+            </div>
+            <!-- overlay -->
+         </div>
+      </div>
 
    <script>
       function formSubmitSend() {
