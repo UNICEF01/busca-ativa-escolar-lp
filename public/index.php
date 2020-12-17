@@ -371,7 +371,7 @@
 
                      <br/>
 
-                     <p>A Busca Ativa Escolar fez um Reconhecimento Público dos municípios que participaram da edição 2017-2020 do Selo UNICEF e que alcançaram a meta de (re)matrícula estabelecida, garantindo, assim, o direito à educação de crianças e adolescentes. O documento foi enviado aos(às) coordenadores(as) operacionais dos municípios. Caso o seu não tenha recebido, entre em contato com os nossos canais de atendimento. <a href="/downloads/lista_municipios_reconhecimento_publico_2020.pdf" target="_blank">Acesse aqui a lista de municípios</a></p>
+                     <p>A Busca Ativa Escolar fez um Reconhecimento Público dos municípios que participaram da edição 2017-2020 do Selo UNICEF e que alcançaram a meta de (re)matrícula estabelecida, garantindo, assim, o direito à educação de crianças e adolescentes. O documento foi enviado aos(às) coordenadores(as) operacionais dos municípios. Caso o seu não tenha recebido, entre em contato com os nossos canais de atendimento. <a href="/downloads/lista_municipios_reconhecimento_publico_2020_1.pdf" target="_blank">Acesse aqui a lista de municípios</a></p>
 
                      <br/><br/>
 
