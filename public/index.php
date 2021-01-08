@@ -366,30 +366,25 @@
 
                      <h2 class="c-blue">
                         <img src="../../images/logo-busca-ativa-escolar.png"><br><br>
-                        <div style="font-size: 28px">Destaques</div>
+                        <div style="font-size: 30px">Destaques</div>
                      </h2>
 
                      <br/>
 
-                     <p>A Busca Ativa Escolar fez um Reconhecimento Público dos municípios que participaram da edição 2017-2020 do Selo UNICEF e que alcançaram a meta de (re)matrícula estabelecida, garantindo, assim, o direito à educação de crianças e adolescentes. O documento foi enviado aos(às) coordenadores(as) operacionais dos municípios. Caso o seu não tenha recebido, entre em contato com os nossos canais de atendimento. <a href="/downloads/lista_municipios_reconhecimento_publico_2020_1.pdf" target="_blank">Acesse aqui a lista de municípios</a></p>
+                     <h2><div style="font-size: 28px; text-align:left">Atenção: Renovação de adesão dos municípios</div></h2>
 
-                     <br/><br/>
-
-                     <p><b>Conheça as respostas da Busca Ativa Escolar para crises e emergências:</b><br/>
-
-                     Campanha de comunicação: <a href="https://buscaativaescolar.org.br/campanha" target="_blank"> Clique aqui e saiba mais</a><br/>
-
-                     Guia Busca Ativa Escolar em Crises e Emergências: <a href="https://buscaativaescolar.org.br/criseseemergencias" target="_blank"> Clique aqui e saiba mais</a><br/>
-
-                     Guia de uso da funcionalidade de acompanhamento da frequência escolar: <a href="https://biblioteca.buscaativaescolar.org.br/material/guia-para-uso-da-funcionalidade-de-acompanhamento-de-frequencia-escolar" target="_blank"> Clique aqui e saiba mais</a></p>
-
-                     <br/><br/>
-
-                     <p>
-                     Atenciosamente,<br/>
-                     Equipe Gestora Nacional da Busca Ativa Escolar</p>
-
-
+                    <p>Em 2021 começou um novo ciclo nas gestões municipais. Por isso, a plataforma da Busca Ativa Escolar foi fechada em 31 de dezembro de 2020, mas já está reaberta para o processo de readesão municipal.  Para estados o acesso continuará funcionando normalmente. Confira o passo a passo do processo da readesão dos municípios <a href="https://biblioteca.buscaativaescolar.org.br/storage/files/shares/GUIA%20-%20Reades%C3%A3o_Busca%20Ativa%20Escolar_V1.pdf" target="_blank">neste guia</a></p>
+                    <br/>
+                    <p>A Busca Ativa Escolar fez um Reconhecimento Público dos municípios que participaram da edição 2017-2020 do Selo UNICEF e que alcançaram a meta de (re)matrícula estabelecida, garantindo, assim, o direito à educação de crianças e adolescentes. O documento foi enviado aos(às) coordenadores(as) operacionais dos municípios. Caso o seu não tenha recebido, entre em contato com os nossos canais de atendimento. <a href="https://buscaativaescolar.org.br/downloads/lista_municipios_reconhecimento_publico_2020_1.pdf" target="_blank"> Acesse aqui</a> a lista de municípios</p>
+                    <br/>
+                    <p><b>Conheça as respostas da Busca Ativa Escolar para crises e emergências:</b></p>
+                    <br/>
+                    <p>Campanha de comunicação: <a href="https://buscaativaescolar.org.br/campanha" target="_blank">Clique aqui</a> e saiba mais<br/>
+                    Guia Busca Ativa Escolar em Crises e Emergências: <a href="https://buscaativaescolar.org.br/criseseemergencias" target="_blank"> Clique aqui</a> e saiba mais<br/>
+                    Guia de uso da funcionalidade de acompanhamento da frequência escolar: <a href="https://biblioteca.buscaativaescolar.org.br/materiais/guia-para-uso-da-funcionalidade-de-acompanhamento-de-frequencia-escolar" target="_blank"> Clique aqui</a> e saiba mais</p>
+                    <br/>
+                    <p>Atenciosamente,<br/>
+                    Esquipe Gestora Nacional da Busca Ativa Escolar</p>
 
                   </div>
                   <!-- content -->
