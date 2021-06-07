@@ -33,18 +33,6 @@
     <link rel="stylesheet" href="dist/css/libs.css?v=2.0"/>
     <link rel="stylesheet" href="dist/css/app.css?v=2.0"/>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111014746-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-        gtag('config', 'UA-111014746-1');
-    </script>
 </head>
 
 <body id="home">
